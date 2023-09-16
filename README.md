@@ -5,8 +5,11 @@ This report is a dashboard about the housing system in Nigeria.  It contains dat
 ___
 ## INTRODUCTION
 Housing is one of the most important life components giving shelter, safety and warmth, as well as providing a place to rest. It has been estimated that about 85% of the urban population live in single rooms, often with eight to twelve persons per room. Living conditions are poor. 
-The dataset provides information about the type of house, the state they are located and the prices of a real estate company. The dataset was gotten from https://nigeriapropertycentre.com/
 
+![](datadisctionary.png)
+
+## Data Sourcing
+The dataset provides information about the type of house, the state they are located and the prices of a real estate company. The dataset was gotten from https://nigeriapropertycentre.com/
 
 **_Disclaimer_**: _All datasets and reports do not represent any company, institution, or country, but just a sample dataset to practise 
 
@@ -46,9 +49,24 @@ The problem statement and other business questions were answered and illustrated
 
 ## ANALYSIS
 The average revenue is ₦301,380,208.5, there was a total of 6 region in 25 states and 189 towns in the dataset. We have 7 different house type in the dataset in which the most sold house type is detached duplex. South west region have the highest revenue with lagos being the first.
-House type               | Cleaned Dataset               |  Parents
+House type               | Cleaned Dataset               |  Data Dictionary
   :-------------------------:|:--------------------------:  | :------------------:
-  ![](housing4.png)     |   ![](housing2.png)       |  ![](parents.png)
+  ![](housing4.png)     |   ![](housing2.png)       |  ![](datadisctionary.png)
   
+## CONCLUSION
+1.	The average total revenue is ₦301,380,208.5
+2.	We have a total of 189 towns in 25 states in 6 regions in the dataset.
+3.	The South-west region has the highest revenue with Lagos being the first having an average revenue of ₦344,261,451.6
+4.	Detached duplex has the highest revenue with terraced bungalow having the least
+5.	Most blocked flats, detached bungalows, semi-detached bungalows and terraced bungalows have 3 bedrooms, bathrooms, toilets and parking spaces
+6.	Most semi-detached duplex and terraced duplex have 4 bedrooms, bathrooms, toilets and parking spaces
+7.	Most detached duplexes have 5 bedrooms, bathrooms, toilets and parking spaces
+8.	The highest revenue was from houses with 5 bathrooms, 7 bedrooms, 8 toilets and 4 Parking spaces.
+9.	Only terraced duplexes were sold in Northeast region of Nigeria
+
+## RECOMMENDATION
+- The North is known for its high population and has the least housing scheme, so more housing schemes should be available in the Northeast and West regions.
+- There is a total of 36 States in Nigeria which only 25 states are represented in the dataset which shows how fictitious it is.
+- More data needs to be collected to know how large a family is
 
 
